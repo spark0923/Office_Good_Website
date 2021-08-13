@@ -36,6 +36,9 @@ header{
     height: 75px;
 }
 
+#desktop_nav{
+    display: none;
+}
 
 #navigation{
     margin: 0;
@@ -45,9 +48,9 @@ header{
     position: absolute;
     top: 80px;
 
-    background-color: white;
+    background-color: darkslategrey;
     width: 100%;
-    font-size: x-large;
+    font-size: large;
 }
 
 .expand{
@@ -61,14 +64,18 @@ header{
 }
 
 #navigation ul li{
-    padding: 25px 50px 25px 50px;
+    padding: 10px 50px 10px 50px;
     list-style: none;
     color: black;
+}
+
+#navigation ul li a{
     text-decoration: none;
+    color: white;
 }
 
 #navigation ul li:hover{
-    background-color: lightgray;
+    background-color: gray;
 }
 
 #navigation ul li:first-child{
@@ -192,6 +199,9 @@ header{
     font-size: xx-large;
 }
 
+#repair_products a{
+    text-decoration: none;
+}
 
 
 /* ---------------------------------------------------------------------------- */
@@ -205,7 +215,7 @@ header{
 }
 
 .third-image-fix img{
-    width: 200px;   
+    width: 100%;   
 }
 
 .third-image-apple img{
@@ -295,3 +305,74 @@ body{
 main{
     padding-bottom: 200px;
 }
+
+
+
+
+/* ----------------------------------------------------------------- */
+
+
+
+@media only screen and (min-width:720px){
+    #hamburger{
+        display: none;
+    }
+
+    #desktop_nav{
+        display: flex;
+        margin-left: auto;
+    }
+
+    #desktop_nav ul{
+        display: flex;
+    }
+
+    #desktop_nav ul li{
+        list-style: none;
+        margin: 0 15px 0 15px;
+        color: white;
+    }
+
+    #desktop_nav ul li a{
+        text-decoration: none;
+        color: currentColor;
+    }
+
+    #third-fix{
+        display: flex;
+        align-items: center;
+    }
+
+    .third-text-fix{
+        width: 60%;
+        margin: 50px;
+    }
+    .third-image-fix{
+        width: 40%;
+        margin-right: 50px;
+    }    
+}
+
+
+@media only screen and (min-width:1280px){
+    main{
+        width: 1280px;
+        margin: auto;
+    }
+
+    #intro{
+        height: 35vh;
+    }
+
+    #repair_products{
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+
+
+    
+
+
+}
+
