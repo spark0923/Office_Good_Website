@@ -38,6 +38,9 @@ header{
 
 
 #navigation{
+    margin: 0;
+
+
     display: none;
     position: absolute;
     top: 80px;
@@ -51,11 +54,21 @@ header{
     display: block;
 }
 
+#navigation ul{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 #navigation ul li{
-    margin: 30px 0 30px 0;
+    padding: 25px 50px 25px 50px;
     list-style: none;
     color: black;
     text-decoration: none;
+}
+
+#navigation ul li:hover{
+    background-color: lightgray;
 }
 
 #navigation ul li:first-child{
