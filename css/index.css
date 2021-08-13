@@ -47,6 +47,10 @@ header{
     font-size: x-large;
 }
 
+.expand{
+    display: block;
+}
+
 #navigation ul li{
     margin: 30px 0 30px 0;
     list-style: none;
