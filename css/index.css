@@ -39,22 +39,25 @@ header{
 
 #navigation{
     display: none;
+    position: absolute;
+    top: 80px;
+
+    background-color: white;
+    width: 100%;
+    font-size: x-large;
 }
 
 #navigation ul li{
+    margin: 30px 0 30px 0;
     list-style: none;
 }
 
 
 /* ------------------------------------------------------------- */
 
-#main_cont{
-    scroll-snap-type: y mandatory;
-}
 
 #first{
     margin-bottom: 30px;
-    scroll-snap-align: center;
 }
 
 #intro{
@@ -123,7 +126,6 @@ header{
 /* ----------------------------------------------------- */
 
 #second{
-    scroll-snap-align: center;
     margin: 30px 0 30px 0;
 }
 
@@ -172,7 +174,6 @@ header{
 /* ---------------------------------------------------------------------------- */
 
 #third{
-    scroll-snap-align: center;
     text-align: center;
 }
 
