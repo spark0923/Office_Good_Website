@@ -338,6 +338,19 @@ main{
         color: currentColor;
     }
 
+    #desktop_nav ul li a:hover{
+        text-decoration: underline;
+        font-weight: 600;
+        color: currentColor;
+    }
+
+
+    #repair_products p{
+        font-size: 50px;
+    }
+
+
+
     #third-fix{
         display: flex;
         align-items: center;
