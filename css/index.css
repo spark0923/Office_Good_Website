@@ -1,0 +1,140 @@
+
+
+html,body{
+    margin: 0;
+    font-family: 'Noto Sans', 'Roboto', sans-serif;
+}
+
+
+header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    background-color: darkslategray;
+    align-items: center;
+    height: 80px;
+}
+
+#logo{
+    margin-left: 30px;
+}
+
+
+#logo img{
+    height: 55px;
+}
+
+#hamburger{
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+
+#hamburger img{
+    height: 75px;
+}
+
+
+#navigation{
+    display: none;
+}
+
+#navigation ul li{
+    list-style: none;
+}
+
+
+/* ------------------------------------------------------------- */
+
+#first{
+    margin-bottom: 30px;
+}
+
+#intro{    
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    background-image: url('../images/server.jpg');
+    filter: grayscale(20%);
+    background-size: 100%;
+    color: white;
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+#intro h2{
+    background-color: rgb(38,63,63, .5);
+    border-radius: 25px;
+    text-align: center;
+    padding: 30px;
+}
+
+
+#info p{
+    width: 100%;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+#buttons{
+    text-align: center;
+}
+
+#buttons button{
+    margin: 10px 0 10px 0;
+    border: 1px solid gray;
+    border-radius: 25px;
+}
+
+#buttons button a{
+    margin: 0 15px 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+#buttons button p{
+    margin-left: 15px;
+    font-size: medium;
+}
+
+
+#buttons button:hover{
+    box-shadow: 0px 1px 2px 2px lightgray;
+}
+
+
+/* ----------------------------------------------------- */
+
+#second{
+    margin: 30px;
+}
+
+#second-text{
+    text-align: center;
+}
+
+#repair_products div{
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    color: white;
+    margin: 0;
+}
+
+#repair_products img{
+    -webkit-mask-image: linear-gradient(to left, transparent 5%, black 70%);
+    width: 60%;
+}
+
+#repair_products p{
+    width: 40%;
+    text-align: center;
+    margin-left: auto;
+}
