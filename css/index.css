@@ -50,6 +50,12 @@ header{
 #navigation ul li{
     margin: 30px 0 30px 0;
     list-style: none;
+    color: black;
+    text-decoration: none;
+}
+
+#navigation ul li:first-child{
+    margin-top: 0;
 }
 
 
