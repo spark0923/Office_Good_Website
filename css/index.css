@@ -48,8 +48,13 @@ header{
 
 /* ------------------------------------------------------------- */
 
+#main_cont{
+    scroll-snap-type: y mandatory;
+}
+
 #first{
     margin-bottom: 30px;
+    scroll-snap-align: center;
 }
 
 #intro{
@@ -74,6 +79,10 @@ header{
     padding: 15px;
 }
 
+#info{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
 
 #info p{
     width: 100%;
@@ -87,7 +96,6 @@ header{
 }
 
 #buttons button{
-    margin: 10px 0 10px 0;
     border: 1px solid gray;
     border-radius: 25px;
 }
@@ -115,6 +123,7 @@ header{
 /* ----------------------------------------------------- */
 
 #second{
+    scroll-snap-align: center;
     margin: 30px 0 30px 0;
 }
 
@@ -163,6 +172,7 @@ header{
 /* ---------------------------------------------------------------------------- */
 
 #third{
+    scroll-snap-align: center;
     text-align: center;
 }
 
