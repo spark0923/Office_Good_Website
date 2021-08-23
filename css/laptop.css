@@ -1,0 +1,52 @@
+#first{
+    margin-bottom: 30px;
+}
+
+#laptop_intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+/* 
+    background-image: url('../images/wow.jpg');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+     */
+    filter: grayscale(20%);
+    background-size: 100%;
+    color: black;
+    font-weight: 500;
+}
+
+#laptop_intro h1{
+    text-align: center;
+    border-radius: 25px;
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+
+#first img{
+    width: 100%;
+}
+
+.intro-text {
+    display: flex;
+}
+.intro-text *{
+    margin: 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-text div{
+    width: 40%;
+}
+
+.intro-text span{
+    width: 60%;
+}
