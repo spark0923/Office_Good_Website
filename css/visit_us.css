@@ -19,7 +19,7 @@ table{
 }
 
 
-.map_text{
+.la_map_text{
     display: flex;
 }
 
@@ -38,5 +38,36 @@ iframe{
 
 .map_text_mobile{
     display: none;
+
+}
+
+.map_text_mobile .la_map{
+    width: 100%;
+    text-align: center;
+}
+.map_text_mobile .la_map iframe{
+    width: 80%;
+}
+
+@media only screen and (max-width:920px){
+
+    .map_text{
+        display: block;
+    }
+
+    .map_text_mobile{
+        display: block;
+    
+    }
+    .la_map_text{
+        display: none;
+    }
+    .map_text .oc_map{
+        width: 100%;
+        text-align: center;
+    }
+    .map_text .oc_map iframe{
+        width: 80%;
+    }
 
 }
