@@ -87,7 +87,7 @@ header{
 
 
 #first{
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 #intro{
@@ -369,7 +369,7 @@ main{
     }
 
     #desktop_nav ul li a:hover{
-        text-decoration: underline;
+        text-decoration: none;
         font-weight: 600;
         color: currentColor;
     }
@@ -426,3 +426,11 @@ main{
 
 }
 
+.mouseHover{
+    transition: all .2s ease-in-out;
+}
+
+.mouseHover:hover{
+    transform: scale(1.05);
+    z-index: 0;
+}

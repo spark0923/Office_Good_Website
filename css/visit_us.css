@@ -1,0 +1,42 @@
+
+.map_text{
+    display: flex;
+}
+
+.oc_text{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.oc_map{
+    width: 50%;
+}
+
+
+.map_text{
+    display: flex;
+}
+
+.la_text{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.la_map{
+    width: 50%;
+}
+iframe{
+    width: 100%;
+}
+
+.map_text_mobile{
+    display: none;
+
+}
