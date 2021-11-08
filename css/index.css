@@ -93,23 +93,26 @@ header{
 #intro{
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 25vh;
-    background-image: url('../images/server_intro.jpg');
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    filter: grayscale(20%);
-    background-size: 100%;
+    justify-content: right;
+    height: 50px;
+    background-image: url('../images/banner.jpg');
     color: white;
-    font-weight: 500;
+    font-weight: 400;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.intro_text{
+    width: 50%;
+    font-size: 24px;
+
 }
 
 #intro h1{
     text-align: center;
-    background-color: rgb(38,63,63, .5);
     border-radius: 25px;
     text-align: center;
-    padding: 15px;
+    padding: 0 100px 0 0;
+    color: white;
 }
 
 #info{
